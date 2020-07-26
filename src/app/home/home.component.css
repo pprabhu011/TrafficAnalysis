@@ -17,9 +17,7 @@
 .nav-font-size{
    font-size: 22px;
 }
-.font-style{
-   font-family: var(--font-style);
-}
+
 .socialm-icon{
    width: 20px;
    height: 20px;
@@ -28,17 +26,7 @@
 .content-bg-img{
 height:600px
 }
-.header-clr{
-   color: var(--theme-color);
-}
+
 .para-font-size{
 font-size: 20px;
-}
-.para-div{
-   margin: 30px 40px 0px 40px;
-}
-@media only screen and (min-width: 700px) {
-.para-div{
-   margin: 90px 150px 0px 150px;
-}
 }
