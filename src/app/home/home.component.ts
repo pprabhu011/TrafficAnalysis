@@ -34,8 +34,7 @@ export class HomeComponent implements OnInit  {
       traffic[0].getElementsByClassName('dropdown-menu')[0].classList.remove('show');
       }
     }
-    debugger;
-    if(e.target.id !=='nav-mobile-button'){
+    if(e.target.id !=='nav-mobile-button' && e.target.id !=='navbarDropdown'){
       if(traffic[0].getElementsByClassName('navbar-toggler')[0].getAttribute('aria-expanded') === 'true'){
         traffic[0].getElementsByClassName('navbar-toggler')[0].setAttribute('aria-expanded','false');
         traffic[0].getElementsByClassName('navbar-collapse')[0].classList.remove('show');
