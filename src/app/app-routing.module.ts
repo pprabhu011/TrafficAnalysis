@@ -22,7 +22,9 @@ const routes: Routes = [
   {path:'pedestraincount', component: PedestrianCountComponent},
   {path:'queuelengthsurvey', component: QueueLengthSurveysComponent},
   {path:'contactus', component: ContactinfoComponent},
-  {path:'',redirectTo:'hometext',pathMatch:'full'}
+  {path:'',redirectTo:'hometext',pathMatch:'full'},
+  {path:'**',component: HomecontentComponent},
+
 ];
 
 @NgModule({
