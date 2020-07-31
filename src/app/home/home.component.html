@@ -1,4 +1,4 @@
-<div class='p-traffic' #nav>
+<div class='p-traffic' #nav style="position: sticky;">
   <nav class="navbar navbar-expand-lg navbar-dark theme">
       <a class="navbar-brand" href="#"><img class='logo' src="./assets/img/logo.jpg"></a>
       <button class="navbar-toggler"  (click)="mobileNavOpen()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,13 @@
             </a>
             <div class="dropdown-menu "  aria-labelledby="navbarDropdown">
               <a class="dropdown-item words-over font-style" [routerLink]="['./interactioncount']">Interaction Counts</a>
-              <a class="dropdown-item words-over font-style" [routerLink]="['./pedestraincount']">Pedestrian Counts</a>
-              <a class="dropdown-item words-over font-style" [routerLink]="['./busterminal']">Bus Terminal</a>
+              <a class="dropdown-item words-over font-style" [routerLink]="['./pedestraincount']">Pedestrian and Cyclist Counts</a>
+              <a class="dropdown-item words-over font-style" [routerLink]="['./busterminal']">Bus Punctuality surveys</a>
               <a class="dropdown-item words-over font-style" [routerLink]="['./parkingsurvey']">Parking Surveys</a>
               <a class="dropdown-item words-over font-style" [routerLink]="['./queuelengthsurvey']">Queue Length Surveys</a>
               <a class="dropdown-item words-over font-style" [routerLink]="['./anpr']">Anpr</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item words-over font-style" [routerLink]="['./customizedcount']">Customized Counts</a>
+              <a class="dropdown-item words-over font-style" [routerLink]="['./customizedcount']">Illegal Movement Survey</a>
             </div>
           </li>
         </ul>
@@ -35,7 +35,7 @@
           <a href='https://www.linkedin.com/in/hightech-traffic-solution-htts-6a06061b2/' target="_blank"> <img  src="./assets/img/Linkedin.png" class="socialm-icon"></a>
           </div>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success my-2 my-sm-0 button-color button-hover font-style" [routerLink]="['./contactus']" type="submit">Contact US</button>
+          <button class="btn btn-outline-success my-2 my-sm-0 button-color button-hover font-style" [routerLink]="['./contactus']">Contact US</button>
         </form>
       </div>
     </nav>

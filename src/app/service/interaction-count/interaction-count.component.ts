@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-interaction-count',
-  template: `
-  <div> Interaction counts </div>`,
+  templateUrl: './interaction-count.component.html',
   styleUrls: ['./interaction-count.component.css']
 })
 export class InteractionCountComponent implements OnInit {

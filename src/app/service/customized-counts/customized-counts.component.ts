@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './customized-counts.component.html',
   styleUrls: ['./customized-counts.component.css']
 })
-export class CustomizedCountsComponent implements OnInit {
+export class IllegalmovementComponent implements OnInit {
 
   constructor() { }
 

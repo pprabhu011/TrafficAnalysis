@@ -6,7 +6,7 @@ import { HomeModule } from './home/home.module';
 import { HomecontentComponent } from './home/homecontent.component';
 import { AnprComponent } from './service/anpr/anpr.component';
 import { BusTerminalComponent } from './service/bus-terminal/bus-terminal.component';
-import { CustomizedCountsComponent } from './service/customized-counts/customized-counts.component';
+import { IllegalmovementComponent } from './service/customized-counts/customized-counts.component';
 import { ParkingSurveysComponent } from './service/parking-surveys/parking-surveys.component';
 import { PedestrianCountComponent } from './service/pedestrian-count/pedestrian-count.component';
 import { QueueLengthSurveysComponent } from './service/queue-length-surveys/queue-length-surveys.component';
@@ -14,14 +14,14 @@ import { ContactinfoComponent } from './contactinfo/contactinfo.component';
 
 const routes: Routes = [
   {path:'hometext', component: HomecontentComponent},
+  {path:'contactus', component: ContactinfoComponent},
   {path:'anpr', component: AnprComponent},
   {path:'busterminal', component: BusTerminalComponent},
-  {path:'customizedcount', component: CustomizedCountsComponent},
+  {path:'customizedcount', component: IllegalmovementComponent},
   {path:'interactioncount', component: InteractionCountComponent},
   {path:'parkingsurvey', component: ParkingSurveysComponent},
   {path:'pedestraincount', component: PedestrianCountComponent},
   {path:'queuelengthsurvey', component: QueueLengthSurveysComponent},
-  {path:'contactus', component: ContactinfoComponent},
   {path:'',redirectTo:'hometext',pathMatch:'full'},
   {path:'**',component: HomecontentComponent},
 

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomizedCountsComponent } from './customized-counts.component';
+import { IllegalmovementComponent } from './customized-counts.component';
 
-describe('CustomizedCountsComponent', () => {
-  let component: CustomizedCountsComponent;
-  let fixture: ComponentFixture<CustomizedCountsComponent>;
+describe('IllegalmovementComponent', () => {
+  let component: IllegalmovementComponent;
+  let fixture: ComponentFixture<IllegalmovementComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CustomizedCountsComponent ]
+      declarations: [ IllegalmovementComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CustomizedCountsComponent);
+    fixture = TestBed.createComponent(IllegalmovementComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
