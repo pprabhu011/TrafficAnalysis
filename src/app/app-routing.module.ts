@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'contactus', component: ContactinfoComponent},
   {path:'anpr', component: AnprComponent},
   {path:'busterminal', component: BusTerminalComponent},
-  {path:'customizedcount', component: IllegalmovementComponent},
+  {path:'illegalmovement', component: IllegalmovementComponent},
   {path:'interactioncount', component: InteractionCountComponent},
   {path:'parkingsurvey', component: ParkingSurveysComponent},
   {path:'pedestraincount', component: PedestrianCountComponent},
